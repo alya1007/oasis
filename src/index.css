@@ -1,3 +1,6 @@
 :root {
 	--color-background: #fff2f2;
+	--color-primary: #99627a;
+	--image__border-radius: 30px;
+	--button__border-radius: 30px;
 }

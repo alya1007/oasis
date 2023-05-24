@@ -5,17 +5,11 @@ import { routes } from "./data/pagesData";
 function App() {
 	return (
 		<BrowserRouter>
-			<div className="container">
-				<Routes>
-					{routes.map((route) => (
-						<Route
-							path={route.path}
-							key={route.name}
-							element={route.component}
-						/>
-					))}
-				</Routes>
-			</div>
+			<Routes>
+				{routes.map((route) => (
+					<Route path={route.path} key={route.name} element={route.component} />
+				))}
+			</Routes>
 		</BrowserRouter>
 	);
 }

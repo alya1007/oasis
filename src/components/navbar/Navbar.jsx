@@ -1,26 +1,40 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./navbar.css";
-import Logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import { routes } from "../../data/pagesData";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar">
-			<div className="navbar-links">
-				<div className="navbar-links_logo">
-					<img src={Logo} alt="logo" />
+		<div className="container">
+			<nav className="navbar">
+				<div className="navbar-links">
+					<div className="navbar-links_logo">
+						<h2 className="navbar-links_logo-title">oasis.</h2>
+					</div>
+					<div className="navbar-links_pages">
+						{routes.map((route) => (
+							<Link
+								to={route.path}
+								key={route.name}
+								className="navbar-links_pages-link"
+							>
+								{route.name}
+							</Link>
+						))}
+					</div>
 				</div>
-				<div className="navbar-links_pages">
-					{routes.map((route) => (
-						<Link to={route.path} key={route.name}>
-							{route.name}
-						</Link>
-					))}
+				<div className="navbar-menu">
+					<button className="navbar-menu_button navbar-menu_search">
+						<CiSearch className="navbar-menu_button-search" />
+					</button>
+					<button className="navbar-menu_button navbar-menu_title">
+						<div className="navbar-menu_button-title">menu</div>
+					</button>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	);
 };
 

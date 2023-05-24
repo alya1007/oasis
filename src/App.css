@@ -24,3 +24,25 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+
+.section__padding {
+	padding: 4rem 0;
+}
+
+.section__title {
+	font-size: 3em;
+	font-style: italic;
+	margin: 0px 0 10px;
+}
+
+.button-light {
+	background-color: var(--color-background);
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+	padding: 10px 40px;
+	border-radius: var(--button__border-radius);
+	font-size: 1.2em;
+	font-weight: 300;
+	cursor: pointer;
+	text-transform: lowercase;
+}
