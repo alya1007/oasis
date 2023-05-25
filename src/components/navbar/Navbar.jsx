@@ -4,6 +4,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import { routes } from "../../data/pagesData";
 import { CiSearch } from "react-icons/ci";
+import IconButton from "../iconButton/IconButton";
 
 const Navbar = () => {
 	return (
@@ -26,9 +27,7 @@ const Navbar = () => {
 					</div>
 				</div>
 				<div className="navbar-menu">
-					<button className="navbar-menu_button navbar-menu_search">
-						<CiSearch className="navbar-menu_button-search" />
-					</button>
+					<IconButton icon={<CiSearch />} />
 					<button className="navbar-menu_button navbar-menu_title">
 						<div className="navbar-menu_button-title">menu</div>
 					</button>

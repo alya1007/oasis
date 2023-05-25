@@ -54,23 +54,13 @@
 	color: var(--color-primary);
 	font-size: 1.5rem;
 	cursor: pointer;
-	/* border-radius: 50%; */
 	color: var(--color-background);
 	margin: 0 0.1rem;
 }
 
-.navbar-menu_button.navbar-menu_search {
-	border-radius: 50%;
-}
-
 .navbar-menu_button.navbar-menu_title {
 	border-radius: 20px;
-}
-
-.navbar-menu_button-search {
-	padding: 0.65rem;
-	font-size: 2.35rem;
-	border-radius: 50%;
+	margin-left: 3px;
 }
 
 .navbar-menu_button-title {

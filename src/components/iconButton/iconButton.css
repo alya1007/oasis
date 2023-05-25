@@ -1,0 +1,15 @@
+.icon__button {
+	border: 2px solid var(--color-primary);
+	background-color: var(--color-primary);
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: var(--color-background);
+	padding: 0.36rem;
+	border-radius: 50%;
+}
+
+.icon__button-inner {
+	display: flex;
+	align-items: center;
+	color: var(--color-background);
+}
