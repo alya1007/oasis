@@ -1,0 +1,26 @@
+.best__article-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: var(--image__border-radius);
+	padding: 25px;
+}
+
+.best__article-info_right {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: space-between;
+	height: 370px;
+}
+
+.best__article-info_right-title {
+	border-radius: var(--text__border-radius) var(--text__border-radius) 0 0;
+}
+
+.best__article-info_right-description {
+	border-radius: 0 var(--text__border-radius) var(--text__border-radius)
+		var(--text__border-radius);
+	font-size: 1.5rem;
+	font-style: italic;
+}

@@ -1,9 +1,12 @@
 :root {
 	--color-background: #fff2f2;
-	--color-primary: #99627a;
+	--color-primary: #643843;
 	--color-secondary: #c88ea7;
 	--color-tertiary: #643843;
 	--image__border-radius: 30px;
 	--button__border-radius: 30px;
+	--date__border-radius: 30px;
+	--text__border-radius: 7px;
+	--article__text-size: 0.9rem;
 	--image__background-services: url("assets/images/services.jpg");
 }

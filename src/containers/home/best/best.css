@@ -1,0 +1,27 @@
+.best__container-left_article {
+	background-image: url("../../../assets/images/article_left.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: var(--image__border-radius);
+	height: 425px;
+}
+
+.best {
+	margin-top: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.best__container-left {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.best__container-left_title {
+	font-size: 5rem;
+	font-weight: 700;
+}

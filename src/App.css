@@ -38,8 +38,8 @@ body {
 
 .button-light {
 	background-color: var(--color-background);
-	color: var(--color-primary);
-	border: 1px solid var(--color-primary);
+	color: var(--color-tertiary);
+	border: 1px solid var(--color-tertiary);
 	padding: 10px 40px;
 	border-radius: var(--button__border-radius);
 	font-size: 1.2em;
@@ -50,6 +50,33 @@ body {
 }
 
 .button-light:hover {
-	background-color: var(--color-primary);
+	background-color: var(--color-tertiary);
 	color: var(--color-background);
+}
+
+.article__date {
+	background-color: white;
+	color: var(--color-primary);
+	border-radius: var(--date__border-radius);
+	padding: 5px 12px;
+	font-size: var(--article__text-size);
+	display: block;
+	margin-bottom: 10px;
+}
+
+.article__type {
+	border-radius: var(--date__border-radius);
+	padding: 5px 12px;
+	border: 2px solid var(--color-primary);
+	display: inline-block;
+	font-size: var(--article__text-size);
+	color: var(--color-primary);
+}
+
+.article__info-text {
+	padding: 5px 12px 0;
+	display: inline-block;
+	background-color: white;
+	color: var(--color-primary);
+	font-size: var(--article__text-size);
 }
