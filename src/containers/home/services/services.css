@@ -1,0 +1,25 @@
+.services__section {
+	background-image: url("../../../assets/images/services.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 460px;
+	margin-top: 3rem;
+}
+
+.services__section .container {
+	margin: auto;
+	text-align: center;
+	padding-top: 5rem;
+}
+
+.services__title {
+	font-size: 4em;
+	color: var(--color-tertiary);
+}
+
+.services__cards {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

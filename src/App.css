@@ -33,6 +33,7 @@ body {
 	font-size: 3em;
 	font-style: italic;
 	margin: 0px 0 10px;
+	color: var(--color-primary);
 }
 
 .button-light {
@@ -45,4 +46,10 @@ body {
 	font-weight: 300;
 	cursor: pointer;
 	text-transform: lowercase;
+	transition: linear 0.1s;
+}
+
+.button-light:hover {
+	background-color: var(--color-primary);
+	color: var(--color-background);
 }

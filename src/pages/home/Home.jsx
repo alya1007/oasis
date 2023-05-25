@@ -3,6 +3,7 @@ import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { Article, Brand, CTA, Feature, Navbar } from "./../../components";
 import {
+	Services,
 	Best,
 	Contact,
 	Footer,
@@ -16,6 +17,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Header />
+			<Services />
 			<Best />
 			<Info />
 			<NewPosts />

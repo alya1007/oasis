@@ -1,3 +1,4 @@
+export { default as Services } from "./home/services/Services";
 export { default as Best } from "./home/best/Best";
 export { default as Contact } from "./home/contact/Contact";
 export { default as Footer } from "./home/footer/Footer";
