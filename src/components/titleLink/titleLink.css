@@ -1,0 +1,15 @@
+.title__link {
+	margin-left: 0.5rem;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: var(--color-primary);
+	transition: 0.3s;
+}
+.title__link-icon {
+	position: relative;
+	top: 6px;
+}
+
+.title__link:hover {
+	color: var(--color-secondary);
+}

@@ -2,7 +2,7 @@
 import React from "react";
 import "./best.css";
 // import ArticleLeft from "../../../assets/images/article_left.jpg";
-import { BestArticle } from "../../../components";
+import { BestArticle, TitleLink } from "../../../components";
 import { FiArrowUpRight, FiPlus } from "react-icons/fi";
 import SideArticle from "../../../components/article/sideArticle/SideArticle";
 
@@ -14,6 +14,9 @@ const Best = () => {
 					<div className="best__container-left">
 						<div className="best__container-left_title section__title">
 							Best of the week
+							<span>
+								<TitleLink text="See all posts" link="#" />
+							</span>
 						</div>
 						<div>
 							<BestArticle
