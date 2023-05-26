@@ -24,3 +24,7 @@
 	font-size: 1.5rem;
 	font-style: italic;
 }
+
+.best__article-info_right-icon {
+	align-self: flex-end;
+}

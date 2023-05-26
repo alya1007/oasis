@@ -9,7 +9,7 @@ function ServiceCard({ icon, title, description, link }) {
 			<div className="service__card__icon">{icon}</div>
 			<h1 className="service__card__title">{title}</h1>
 			<p className="service__card__description">{description}</p>
-			<a href={link} className="service__card__link">
+			<a href={link} className="text-link">
 				more
 			</a>
 		</div>

@@ -3,7 +3,8 @@ import React from "react";
 import "./best.css";
 // import ArticleLeft from "../../../assets/images/article_left.jpg";
 import { BestArticle } from "../../../components";
-import { BsArrowUpRight } from "react-icons/bs";
+import { FiArrowUpRight, FiPlus } from "react-icons/fi";
+import SideArticle from "../../../components/article/sideArticle/SideArticle";
 
 const Best = () => {
 	return (
@@ -18,15 +19,24 @@ const Best = () => {
 							<BestArticle
 								className="best__container-left_article"
 								date="May 12, 2020"
-								type="Design"
-								title="Create a design system"
-								description="A design system is a collection of reusable components, guided by clear standards."
-								icon={<BsArrowUpRight />}
+								type="Travel"
+								title="Travel"
+								description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc ut dignissim sodales."
+								icon={<FiArrowUpRight />}
 							/>
 						</div>
 					</div>
 					<div className="best__container-right">
-						<div className="best__container-right_title">right article 1</div>
+						<div className="best__container-right_article">
+							<SideArticle
+								className="best__container-right_article"
+								type="ADS"
+								icon={<FiPlus className="side__article-icon" />}
+								title="Real Talk In A Corporate World"
+								upperTitle="Become A BROADCAST MEMBER"
+								link="#"
+							/>
+						</div>
 						<div className="best__container-right_article">right article 2</div>
 					</div>
 				</div>

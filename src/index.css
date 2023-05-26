@@ -1,12 +1,20 @@
 :root {
 	--color-background: #fff2f2;
 	--color-primary: #643843;
-	--color-secondary: #c88ea7;
-	--color-tertiary: #643843;
+	--color-secondary: #99627a;
+	--color-tertiary: #c88ea7;
+	--color-quaternary: #e7cbcb;
+
+	--color-second-pallet__primary: #7286d3;
+	--color-second-pallet__secondary: #8ea7e9;
+	--color-second-pallet__tertiary: #e5e0ff;
+	--color-second-pallet__quaternary: #fff2f2;
+
 	--image__border-radius: 30px;
 	--button__border-radius: 30px;
 	--date__border-radius: 30px;
 	--text__border-radius: 7px;
 	--article__text-size: 0.9rem;
+	--color__text-background: white;
 	--image__background-services: url("assets/images/services.jpg");
 }

@@ -6,6 +6,8 @@
 	color: var(--color-background);
 	padding: 0.36rem;
 	border-radius: 50%;
+	display: inline-flex;
+	width: min-content;
 }
 
 .icon__button-inner {

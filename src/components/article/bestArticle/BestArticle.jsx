@@ -3,16 +3,21 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./bestArticle.css";
 import "../../../App.css";
+import IconButton from "../../iconButton/IconButton";
+import DateBox from "../dateBox/DateBox";
+import TypeBox from "../typeBox/TypeBox";
 
 const BestArticle = ({ date, type, title, description, icon, className }) => {
 	return (
 		<div className={`best__article ${className}`}>
 			<div className="best__article-info">
 				<div className="best__article-info_left">
-					<h4 className="best__article-info_left-date article__date">{date}</h4>
+					{/* <h4 className="best__article-info_left-date article__date">{date}</h4>
 					<h4 className="best__article-info_left-type article__type">
 						• {type}
-					</h4>
+					</h4> */}
+					<DateBox date={date} />
+					<TypeBox type={type} />
 				</div>
 				<div className="best__article-info_right">
 					<div className="best__article-info_right-upper">
@@ -23,7 +28,7 @@ const BestArticle = ({ date, type, title, description, icon, className }) => {
 							{description}
 						</p>
 					</div>
-					<button className="best__article-info_right-button">{icon}</button>
+					<IconButton icon={icon} className={"best__article-info_right-icon"} />
 				</div>
 			</div>
 		</div>
