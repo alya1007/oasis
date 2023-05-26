@@ -37,7 +37,9 @@ const Best = () => {
 								link="#"
 							/>
 						</div>
-						<div className="best__container-right_article">right article 2</div>
+						<div className="best__container-right_article best__container-right_article-bottom">
+							<SideArticle showButton={true} />
+						</div>
 					</div>
 				</div>
 			</div>

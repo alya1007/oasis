@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	height: 100%;
 }
 
 .side__article-info {
@@ -25,4 +26,18 @@
 .side__article-info-link {
 	align-self: flex-end;
 	margin-top: 40px;
+}
+
+.side__article-info-button {
+	border-color: white;
+	margin-top: auto;
+}
+
+.side__article-info-button:hover {
+	border-color: var(--color-primary);
+}
+
+.side__article-info-button__icon {
+	vertical-align: middle;
+	font-size: 1.4rem;
 }

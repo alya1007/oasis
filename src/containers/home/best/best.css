@@ -40,3 +40,13 @@
 	background-color: var(--color-quaternary);
 	border-radius: var(--image__border-radius);
 }
+
+.best__container-right_article-bottom {
+	background-image: url("../../../assets/images/side_article_right.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top: 20px;
+	padding: 0 2rem;
+}

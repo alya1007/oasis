@@ -34,10 +34,10 @@ const SideArticle = ({
 				</a>
 			)}
 			{showButton && (
-				<button className="side__article-info-button">
+				<button className="side__article-info-button button-light">
 					See all picks
 					<span>
-						<BsArrowRightShort />
+						<BsArrowRightShort className="side__article-info-button__icon" />
 					</span>
 				</button>
 			)}
