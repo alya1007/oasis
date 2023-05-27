@@ -35,7 +35,7 @@ const Carousel = () => {
 				{visibleItems.map((item) => (
 					<CarouselCard
 						className="carousel__item"
-						imageClass={item.isActive ? "active-card" : ""}
+						isActiveClass={item.isActive ? "active-card" : ""}
 						key={item.id}
 						{...item}
 					/>

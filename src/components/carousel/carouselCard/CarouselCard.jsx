@@ -7,7 +7,7 @@ import DateBox from "../../article/dateBox/DateBox";
 
 const CarouselCard = ({
 	className,
-	imageClass,
+	isActiveClass,
 	type,
 	date,
 	link,
@@ -24,7 +24,7 @@ const CarouselCard = ({
 	return (
 		<div className={`carousel-card ${className}`}>
 			<div
-				className={`carousel-card__image-content ${imageClass}`}
+				className={`carousel-card__image-content ${isActiveClass}`}
 				style={style}
 			>
 				<IconButton
@@ -33,8 +33,15 @@ const CarouselCard = ({
 					className="carousel-card__icon-button"
 				/>
 				<div className="carousel-card__bottom">
-					<TypeBox type={type} className="carousel-card__bottom-type__upper" />
-					<DateBox date={date} className="carousel-card__bottom-date" />
+					{isActiveClass && (
+						<TypeBox
+							type={type}
+							className="carousel-card__bottom-type__upper"
+						/>
+					)}
+					{isActiveClass && (
+						<DateBox date={date} className="carousel-card__bottom-date" />
+					)}{" "}
 				</div>
 			</div>
 			<div className="carousel-card__under-image__content">
@@ -49,7 +56,7 @@ export default CarouselCard;
 
 CarouselCard.propTypes = {
 	className: PropTypes.string,
-	imageClass: PropTypes.string,
+	isActiveClass: PropTypes.string,
 	type: PropTypes.string.isRequired,
 	date: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,

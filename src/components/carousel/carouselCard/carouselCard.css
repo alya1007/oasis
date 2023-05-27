@@ -31,4 +31,5 @@
 .active-card {
 	height: 500px;
 	width: 500px;
+	transition: linear 0.4s;
 }
