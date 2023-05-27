@@ -1,3 +1,7 @@
+.info__section {
+	background-color: white;
+}
+
 .section__padding .container {
 	position: relative;
 }
@@ -39,4 +43,8 @@
 	padding: 0 5rem;
 	margin: auto;
 	top: 37rem;
+}
+
+.info__button {
+	background-color: white;
 }

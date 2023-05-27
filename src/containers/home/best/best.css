@@ -1,3 +1,7 @@
+.best__section {
+	background-color: var(--color-background__second);
+}
+
 .best__container-left_article {
 	background-image: url("../../../assets/images/article_left.jpg");
 	background-size: cover;

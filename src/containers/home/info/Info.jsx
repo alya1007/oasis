@@ -7,7 +7,7 @@ import { infoCardsData } from "../../../data/infoCardsData";
 
 const Info = () => {
 	return (
-		<section className="section__padding">
+		<section className="info__section section__padding">
 			<div className="container">
 				<div className="info">
 					<div className="info__image">
@@ -20,7 +20,7 @@ const Info = () => {
 							quidem, voluptatibus, quod, quos voluptatem voluptatum quae
 							asperiores quibusdam doloribus voluptates quia. Quisquam quidem,
 						</p>
-						<button className="button-light">read more</button>
+						<button className="info__button button-light">read more</button>
 					</div>
 				</div>
 				<div className="info__cards">

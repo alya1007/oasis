@@ -1,5 +1,5 @@
 .new-posts__section {
-	background-color: white;
+	background-color: var(--color-background__second);
 	padding-top: 25rem;
 }
 

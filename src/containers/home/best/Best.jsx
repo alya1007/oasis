@@ -8,7 +8,7 @@ import SideArticle from "../../../components/article/sideArticle/SideArticle";
 
 const Best = () => {
 	return (
-		<section className="section__padding">
+		<section className="section__padding best__section">
 			<div className="container">
 				<div className="best">
 					<div className="best__container-left">
