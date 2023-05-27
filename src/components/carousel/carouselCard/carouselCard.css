@@ -1,0 +1,15 @@
+.carousel-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.5rem;
+	border-radius: var(--image__border-radius);
+}
+
+.carousel-card__icon-button {
+	align-self: flex-end;
+}
+
+.carousel-card__bottom-date {
+	margin: 10px 0 0;
+}

@@ -3,11 +3,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./iconButton.css";
 
-const IconButton = ({ icon, className }) => {
+const IconButton = ({ icon, className, href }) => {
 	return (
-		<button className={`icon__button ${className}`}>
+		<a className={`icon__button ${className}`} href={href}>
 			<span className="icon__button-inner">{icon}</span>
-		</button>
+		</a>
 	);
 };
 
@@ -16,4 +16,5 @@ export default IconButton;
 IconButton.propTypes = {
 	icon: PropTypes.element.isRequired,
 	className: PropTypes.string,
+	href: PropTypes.string,
 };

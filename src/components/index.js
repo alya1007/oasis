@@ -8,3 +8,4 @@ export { default as DateBox } from "./article/dateBox/DateBox";
 export { default as TypeBox } from "./article/typeBox/TypeBox";
 export { default as TitleLink } from "./titleLink/TitleLink";
 export { default as InfoCard } from "./infoCard/InfoCard";
+export { default as CarouselCard } from "./carousel/carouselCard/CarouselCard";

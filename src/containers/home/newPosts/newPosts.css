@@ -1,0 +1,13 @@
+.new-posts__section {
+	background-color: white;
+	padding-top: 25rem;
+}
+
+.new-posts__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.new-posts__title h1 {
+	font-size: 5rem;
+}

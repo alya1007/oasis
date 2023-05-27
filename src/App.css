@@ -34,6 +34,7 @@ body {
 	font-style: italic;
 	margin: 0px 0 10px;
 	color: var(--color-primary);
+	font-weight: 700;
 }
 
 .button-light {
@@ -62,6 +63,7 @@ body {
 	font-size: var(--article__text-size);
 	display: block;
 	margin-bottom: 10px;
+	max-width: fit-content;
 }
 
 .article__type {
@@ -89,4 +91,12 @@ body {
 	text-transform: uppercase;
 	color: var(--color-primary);
 	font-weight: 900;
+	font-style: italic;
+}
+
+.text-link__lowercase {
+	text-transform: lowercase;
+	color: var(--color-primary);
+	font-weight: 300;
+	font-size: 1.3rem;
 }
