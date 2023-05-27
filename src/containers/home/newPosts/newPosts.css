@@ -11,3 +11,7 @@
 .new-posts__title h1 {
 	font-size: 5rem;
 }
+
+.new-posts__carousel {
+	display: flex;
+}

@@ -1,0 +1,31 @@
+.carousel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2% auto;
+	width: 100%;
+}
+
+.carousel__items {
+	display: flex;
+	justify-content: space-between;
+	transition: transform 0.2s ease-in-out;
+	font-size: 1rem;
+	font-weight: 800;
+	width: 100%;
+	padding: 0 2%;
+}
+
+.carousel__button {
+	background-color: #ffffff00;
+	border: none;
+	font-size: 2rem;
+	color: var(--color-primary);
+	cursor: pointer;
+	align-self: baseline;
+}
+
+.carousel__item {
+	width: 100%;
+	margin: 0 1%;
+}

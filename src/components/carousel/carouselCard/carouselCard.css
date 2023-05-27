@@ -1,9 +1,10 @@
-.carousel-card {
+.carousel-card__image-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 1.5rem;
 	border-radius: var(--image__border-radius);
+	height: 400px;
 }
 
 .carousel-card__icon-button {
@@ -12,4 +13,22 @@
 
 .carousel-card__bottom-date {
 	margin: 10px 0 0;
+}
+
+.carousel-card__under-image__content {
+	padding: 1.5rem;
+}
+
+.carousel-card__bottom-type__upper {
+	color: var(--color-second-pallet__quaternary);
+	border-color: var(--color-second-pallet__quaternary);
+}
+
+.carousel-card__description {
+	margin-top: 5px;
+}
+
+.active-card {
+	height: 500px;
+	width: 500px;
 }

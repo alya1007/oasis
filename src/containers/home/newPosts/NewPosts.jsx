@@ -1,8 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./newPosts.css";
-import { TitleLink, CarouselCard } from "../../../components";
-import new1 from "../../../assets/images/new1.jpg";
+import { TitleLink, Carousel } from "../../../components";
 
 const NewPosts = () => {
 	return (
@@ -20,13 +19,7 @@ const NewPosts = () => {
 					</a>
 				</div>
 				<div className="new-posts__carousel">
-					<CarouselCard
-						type="Music"
-						date="Dec 24, 2023"
-						backgroundImageUrl={new1}
-						link="#"
-						height={"400px"}
-					/>
+					<Carousel />
 				</div>
 			</div>
 		</section>
