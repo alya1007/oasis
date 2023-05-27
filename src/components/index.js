@@ -7,3 +7,4 @@ export { default as BestArticle } from "./article/bestArticle/BestArticle";
 export { default as DateBox } from "./article/dateBox/DateBox";
 export { default as TypeBox } from "./article/typeBox/TypeBox";
 export { default as TitleLink } from "./titleLink/TitleLink";
+export { default as InfoCard } from "./infoCard/InfoCard";

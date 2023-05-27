@@ -4,6 +4,7 @@
 	text-decoration: none;
 	color: var(--color-primary);
 	transition: 0.3s;
+	cursor: pointer;
 }
 .title__link-icon {
 	position: relative;
