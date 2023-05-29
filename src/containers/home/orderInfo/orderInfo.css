@@ -1,0 +1,68 @@
+.order-info__section {
+	background-image: url("../../../assets/images/orderInfo.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.order-info__section-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.order-info__section-title {
+	font-size: 2em;
+	margin: 0px 0 17px;
+	color: black;
+	font-weight: 700;
+}
+
+.order-info__section-button {
+	border: 1px solid var(--color-primary);
+	padding: 7px 4rem;
+	font-size: 1.1rem;
+	color: var(--color-primary);
+	cursor: pointer;
+	text-transform: lowercase;
+	transition: linear 0.1s;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.order-info__section-button:hover {
+	background-color: var(--color-primary);
+	color: var(--color-background);
+}
+
+.first-button {
+	border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.middle-button {
+	border-radius: 0;
+}
+
+.last-button {
+	border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.active-button {
+	background-color: var(--color-primary) !important;
+	color: white;
+}
+
+.order-info__section-description {
+	margin: 20px 0 10px;
+	font-size: 1.2rem;
+	color: var(--color-primary);
+}
+
+.order-info__section-subdescription {
+	color: black;
+	font-size: 1rem;
+}
+
+.order-info__section-link {
+	margin: 20px 0 0 5px;
+}

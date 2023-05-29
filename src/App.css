@@ -100,3 +100,20 @@ body {
 	font-weight: 300;
 	font-size: 1.3rem;
 }
+
+.button-contact {
+	background-color: var(--color-background);
+	color: var(--color-primary);
+	border: 1px solid var(--color-background);
+	padding: 3px 10px;
+	border-radius: var(--button__border-radius);
+	font-weight: 600;
+	cursor: pointer;
+	text-transform: lowercase;
+	transition: linear 0.1s;
+}
+
+.button-contact:hover {
+	background-color: var(--color-secondary);
+	color: var(--color-background);
+}

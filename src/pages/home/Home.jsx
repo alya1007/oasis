@@ -5,12 +5,12 @@ import { Article, Brand, CTA, Feature, Navbar } from "./../../components";
 import {
 	Services,
 	Best,
-	Contact,
 	Footer,
 	Header,
 	Info,
 	NewPosts,
 	Order,
+	OrderInfo,
 } from "./../../containers";
 const Home = () => {
 	return (
@@ -22,7 +22,7 @@ const Home = () => {
 			<Info />
 			<NewPosts />
 			<Order />
-			<Contact />
+			<OrderInfo />
 			<Footer />
 		</div>
 	);
