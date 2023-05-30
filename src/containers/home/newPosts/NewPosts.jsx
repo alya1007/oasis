@@ -2,6 +2,7 @@
 import React from "react";
 import "./newPosts.css";
 import { TitleLink, Carousel } from "../../../components";
+import { carouselCardsData } from "../../../data/carouselCardsData";
 
 const NewPosts = () => {
 	return (
@@ -19,7 +20,11 @@ const NewPosts = () => {
 					</a>
 				</div>
 				<div className="new-posts__carousel">
-					<Carousel />
+					<Carousel
+						cards={carouselCardsData}
+						nrRowItems={4}
+						newSection={true}
+					/>
 				</div>
 			</div>
 		</section>

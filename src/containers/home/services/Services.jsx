@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./services.css";
-import ServiceCard from "../../../components/services/ServiceCard";
+import { ServiceCard, Carousel } from "../../../components";
 import { cardsData } from "../../../data/cardsData";
 
 const Services = () => {
@@ -19,6 +19,9 @@ const Services = () => {
 							link={card.link}
 						/>
 					))}
+				</div>
+				<div className="services__carousel">
+					<Carousel cards={cardsData} nrRowItems={2} servicesSection={true} />
 				</div>
 			</div>
 		</section>

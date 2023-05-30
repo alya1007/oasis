@@ -9,9 +9,7 @@ const Header = () => {
 	return (
 		<section className="section__padding">
 			<div className="header__content container">
-				<div>
-					<img src={HeaderImage} alt="HeaderImage" className="header__image" />
-				</div>
+				<img src={HeaderImage} alt="HeaderImage" className="header__image" />
 				<div className="header__text">
 					<h1 className="header__text-title section__title">
 						Oasis Articles

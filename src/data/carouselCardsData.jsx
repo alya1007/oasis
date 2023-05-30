@@ -8,8 +8,7 @@ export const carouselCardsData = [
 		link: "#",
 		backgroundImageUrl: new1,
 		secondType: "Lifestyle",
-		description:
-			"The story behind every song on Japanese Breakfast's new album",
+		description: "The story behind Japanese Breakfast's new album",
 	},
 	{
 		id: 2,
@@ -26,7 +25,7 @@ export const carouselCardsData = [
 		date: "Dec 24, 2023",
 		link: "#",
 		backgroundImageUrl: new3,
-		secondType: "House & decor",
+		secondType: "Decor",
 		description: "The art of interior design",
 	},
 	{
@@ -44,7 +43,7 @@ export const carouselCardsData = [
 		date: "Dec 24, 2023",
 		link: "#",
 		backgroundImageUrl: new5,
-		secondType: "Cinematography",
+		secondType: "Cinema",
 		description: "Tips from the greatest director",
 	},
 ];
