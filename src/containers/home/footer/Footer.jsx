@@ -32,8 +32,12 @@ const Footer = () => {
 								We Wish to Make You a Good Experience
 							</h5>
 							<div className="footer__section-contact__details">
-								<button className="button-contact">got any questions?</button>
-								<button className="button-contact">contact us</button>
+								<button className="button-contact footer__section-button__contact">
+									got any questions?
+								</button>
+								<button className="button-contact footer__section-button__contact">
+									contact us
+								</button>
 							</div>
 						</div>
 					</div>

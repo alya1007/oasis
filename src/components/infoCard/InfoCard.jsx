@@ -17,7 +17,7 @@ const InfoCard = ({ number, text, backgroundColor, color }) => {
 export default InfoCard;
 
 InfoCard.propTypes = {
-	number: PropTypes.number.isRequired,
+	number: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
 	backgroundColor: PropTypes.string.isRequired,
 	color: PropTypes.string,

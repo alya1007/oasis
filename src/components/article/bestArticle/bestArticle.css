@@ -28,3 +28,9 @@
 .best__article-info_right-icon {
 	align-self: flex-end;
 }
+
+@media screen and (max-width: 900px) {
+	.best__article-info_right-description {
+		font-size: 1.1rem;
+	}
+}

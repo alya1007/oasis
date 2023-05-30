@@ -12,10 +12,6 @@ const BestArticle = ({ date, type, title, description, icon, className }) => {
 		<div className={`best__article ${className}`}>
 			<div className="best__article-info">
 				<div className="best__article-info_left">
-					{/* <h4 className="best__article-info_left-date article__date">{date}</h4>
-					<h4 className="best__article-info_left-type article__type">
-						• {type}
-					</h4> */}
 					<DateBox date={date} />
 					<TypeBox type={type} />
 				</div>

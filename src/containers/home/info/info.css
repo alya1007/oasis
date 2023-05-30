@@ -42,9 +42,22 @@
 	align-items: center;
 	padding: 0 5rem;
 	margin: auto;
-	top: 37rem;
+	top: 70%;
 }
 
 .info__button {
 	background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+	.info {
+		padding-bottom: 10rem;
+	}
+	.info__content {
+		padding-left: 4rem;
+	}
+	.info__cards {
+		top: 17rem;
+		padding: 0;
+	}
 }

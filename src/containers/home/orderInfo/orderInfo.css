@@ -61,8 +61,22 @@
 .order-info__section-subdescription {
 	color: black;
 	font-size: 1rem;
+	text-align: center;
 }
 
 .order-info__section-link {
 	margin: 20px 0 0 5px;
+}
+
+@media screen and (max-width: 900px) {
+	.order-info__section-buttons {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.order-info__section-button {
+		padding: 5px 3rem;
+	}
 }

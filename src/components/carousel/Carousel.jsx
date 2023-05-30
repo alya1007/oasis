@@ -12,6 +12,11 @@ const Carousel = ({
 	newSection = false,
 	servicesSection = false,
 }) => {
+	const screenWidth = window.innerWidth;
+	if (newSection == true) {
+		nrRowItems = screenWidth <= 900 ? 3 : 4;
+	}
+
 	const [currentIndex, setCurrentIndex] = useState(0);
 
 	const handlePrevClick = () => {

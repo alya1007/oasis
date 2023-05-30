@@ -79,3 +79,18 @@
 	align-items: center;
 	width: 19%;
 }
+
+@media screen and (max-width: 900px) {
+	.footer__section-title {
+		font-size: 3rem;
+	}
+	.footer__section-join__input {
+		margin-right: 2%;
+	}
+	.footer__section-contact__details {
+		width: 30%;
+	}
+	.footer__section-button__contact {
+		font-size: 0.7rem;
+	}
+}
