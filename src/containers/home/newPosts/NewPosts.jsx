@@ -12,10 +12,17 @@ const NewPosts = () => {
 					<h1>
 						New Posts
 						<span>
-							<TitleLink text="See all posts" link="#" />
+							<TitleLink
+								text="See all posts"
+								link="#"
+								className={"new-posts__title-link"}
+							/>
 						</span>
 					</h1>
-					<a href="#" className="text-link__lowercase">
+					<a
+						href="#"
+						className="text-link__lowercase new-posts__text-link__lowercase"
+					>
 						view more
 					</a>
 				</div>

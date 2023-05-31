@@ -20,3 +20,9 @@
 		font-size: 3.7rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.order__section-title {
+		font-size: 2.5em;
+	}
+}

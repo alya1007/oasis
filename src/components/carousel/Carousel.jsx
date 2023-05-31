@@ -5,16 +5,24 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import "./carousel.css";
 import PropTypes from "prop-types";
 import ServiceCard from "../services/ServiceCard";
+import InfoCard from "../infoCard/InfoCard";
 
 const Carousel = ({
 	cards,
 	nrRowItems,
 	newSection = false,
 	servicesSection = false,
+	infoSection = false,
 }) => {
 	const screenWidth = window.innerWidth;
-	if (newSection == true) {
-		nrRowItems = screenWidth <= 950 ? 3 : 4;
+	if (newSection == true && screenWidth <= 950) {
+		nrRowItems = 3;
+	}
+	if (newSection == true && screenWidth <= 600) {
+		nrRowItems = 1;
+	}
+	if (servicesSection == true) {
+		nrRowItems = screenWidth <= 600 ? 1 : 2;
 	}
 
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,6 +70,13 @@ const Carousel = ({
 					))}
 				</div>
 			)}
+			{infoSection && (
+				<div className="carousel__items carousel__items-info">
+					{visibleItems.map((item) => (
+						<InfoCard key={item.id} {...item} />
+					))}
+				</div>
+			)}
 			<button onClick={handleNextClick} className="carousel__button">
 				<FiArrowRight />
 			</button>
@@ -76,4 +91,5 @@ Carousel.propTypes = {
 	nrRowItems: PropTypes.number.isRequired,
 	newSection: PropTypes.bool,
 	servicesSection: PropTypes.bool,
+	infoSection: PropTypes.bool,
 };

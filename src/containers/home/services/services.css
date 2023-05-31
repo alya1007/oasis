@@ -36,3 +36,13 @@
 		display: block;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.services__section .container {
+		padding-top: 5em;
+	}
+	.services__title {
+		font-size: 3em;
+		margin-bottom: 30px;
+	}
+}

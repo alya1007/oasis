@@ -80,3 +80,14 @@
 		padding: 5px 3rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.order-info__section-buttons {
+		width: 100%;
+	}
+	.order-info__section-button {
+		padding: 7px 15px;
+		font-size: 0.8em;
+		white-space: nowrap;
+	}
+}

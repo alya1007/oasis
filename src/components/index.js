@@ -11,5 +11,4 @@ export { default as InfoCard } from "./infoCard/InfoCard";
 export { default as CarouselCard } from "./carousel/carouselCard/CarouselCard";
 export { default as Carousel } from "./carousel/Carousel";
 export { default as OrderImage } from "./order/orderImage/OrderImage";
-export { default as ServicesCarousel } from "./servicesCarousel/ServicesCarousel";
 export { default as ServiceCard } from "./services/ServiceCard";

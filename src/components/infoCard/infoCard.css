@@ -15,7 +15,23 @@
 @media screen and (max-width: 950px) {
 	.info-card {
 		padding: 1em;
-		/* font-size: 1.3vw; */
+		font-size: 2vw;
 		margin-top: 5em;
+	}
+	.info-card__number {
+		font-size: 1em;
+		font-weight: 800;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.info-card {
+		padding: 1em;
+		margin-top: 0em;
+		font-size: 1em;
+		font-weight: 500;
+	}
+	.info-card__number {
+		font-size: 1.5em;
 	}
 }

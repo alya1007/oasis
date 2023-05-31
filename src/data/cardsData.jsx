@@ -4,6 +4,7 @@ import { BsPostcard } from "react-icons/bs";
 
 export const cardsData = [
 	{
+		id: 1,
 		icon: <TbArticle />,
 		title: "Articles",
 		description:
@@ -11,6 +12,7 @@ export const cardsData = [
 		link: "#",
 	},
 	{
+		id: 2,
 		icon: <HiOutlineAcademicCap />,
 		title: "Academic",
 		description:
@@ -18,6 +20,7 @@ export const cardsData = [
 		link: "#",
 	},
 	{
+		id: 3,
 		icon: <BsPostcard />,
 		title: "Blog Posts",
 		description:
@@ -25,6 +28,7 @@ export const cardsData = [
 		link: "#",
 	},
 	{
+		id: 4,
 		icon: <TbSpeakerphone />,
 		title: "Social Media",
 		description:
@@ -32,4 +36,3 @@ export const cardsData = [
 		link: "#",
 	},
 ];
-// Path: oasis\src\data\featuresData.jsx

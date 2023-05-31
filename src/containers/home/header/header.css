@@ -13,10 +13,6 @@
 	margin-right: 2%;
 }
 
-.header__text-title {
-	color: var(--color-primary);
-}
-
 .header__text {
 	flex: 1;
 	text-align: justify;
@@ -53,5 +49,30 @@
 		position: absolute;
 		right: 10%;
 		bottom: 0%;
+	}
+	.header__text-title {
+		font-size: 6.5vw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header__text-title__link {
+		display: block;
+	}
+	.header__text-description {
+		display: none;
+	}
+	.header__text {
+		display: flex;
+		justify-content: center;
+	}
+	.header__text-button {
+		right: 0%;
+		bottom: 0%;
+		left: 0;
+		align-self: center;
+		width: 100%;
+		margin: auto;
+		font-size: 1em;
 	}
 }

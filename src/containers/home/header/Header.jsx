@@ -14,7 +14,11 @@ const Header = () => {
 					<h1 className="header__text-title section__title">
 						Oasis Articles
 						<span>
-							<TitleLink text="See all posts" link="#" />
+							<TitleLink
+								text="See all posts"
+								link="#"
+								className={"header__text-title__link"}
+							/>
 						</span>
 					</h1>
 					<p className="header__text-description">

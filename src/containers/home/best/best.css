@@ -63,3 +63,30 @@
 		margin-top: 150px;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.best__container-left_title {
+		font-size: 2rem;
+	}
+	.best {
+		margin-top: 100px;
+	}
+	.best__container-left {
+		width: 100%;
+	}
+	.best__container-right {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.best__container-right_article-bottom {
+		padding: 0 1rem;
+		height: 240px;
+	}
+	.best {
+		flex-direction: column;
+	}
+	.best__container-left_title-link {
+		display: block;
+		margin: 10px 0 0 0;
+	}
+}

@@ -15,7 +15,11 @@ const Best = () => {
 						<div className="best__container-left_title section__title">
 							Best of the week
 							<span>
-								<TitleLink text="See all posts" link="#" />
+								<TitleLink
+									text="See all posts"
+									link="#"
+									className={"best__container-left_title-link"}
+								/>
 							</span>
 						</div>
 						<div>

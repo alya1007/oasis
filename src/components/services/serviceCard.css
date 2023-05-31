@@ -31,3 +31,19 @@
 	margin: 0 0 1.4rem;
 	text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+	.service__card {
+		padding: 3em 2em;
+	}
+	.service__card__icon {
+		font-size: 2.5em;
+		padding: 20px;
+	}
+	.service__card__title {
+		font-size: 1.5em;
+	}
+	.service__card__description {
+		font-size: 0.9em;
+	}
+}

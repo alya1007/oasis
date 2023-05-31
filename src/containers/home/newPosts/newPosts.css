@@ -24,3 +24,22 @@
 		font-size: 3rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.new-posts__section {
+		padding-top: 70%;
+	}
+	.new-posts__title h1 {
+		font-size: 2rem;
+	}
+	.new-posts__title-link {
+		display: block;
+		margin: 6px 0 0 0;
+	}
+	.new-posts__text-link__lowercase {
+		margin-top: auto;
+	}
+	.new-posts__carousel {
+		margin-top: 50px;
+	}
+}

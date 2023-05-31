@@ -34,3 +34,9 @@
 		font-size: 1.1rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.best__article-info_right-description {
+		font-size: 0.9em;
+	}
+}

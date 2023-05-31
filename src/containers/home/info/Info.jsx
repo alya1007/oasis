@@ -2,7 +2,7 @@
 import React from "react";
 import InfoImage from "../../../assets/images/info.jpg";
 import "./info.css";
-import { InfoCard } from "../../../components";
+import { InfoCard, Carousel } from "../../../components";
 import { infoCardsData } from "../../../data/infoCardsData";
 
 const Info = () => {
@@ -27,6 +27,9 @@ const Info = () => {
 					{infoCardsData.map((infoCardData) => (
 						<InfoCard key={infoCardData.number} {...infoCardData} />
 					))}
+				</div>
+				<div className="info__carousel">
+					<Carousel cards={infoCardsData} nrRowItems={1} infoSection={true} />
 				</div>
 			</div>
 		</section>

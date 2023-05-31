@@ -94,3 +94,39 @@
 		font-size: 0.7rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.footer__section-title {
+		font-size: 2em;
+		width: 80%;
+		margin: 60px auto;
+	}
+	.footer__section-join__fields {
+		width: 100%;
+	}
+	.footer__section-join__input {
+		width: 100%;
+		margin-right: 1%;
+		font-size: 0.9em;
+		padding: 10px 10px;
+	}
+	.footer__section-button__contact {
+		font-size: 0.6rem;
+	}
+	.footer__section-button__submit {
+		width: 100%;
+		margin-right: 1%;
+		font-size: 0.9em;
+		padding: 10px 10px;
+	}
+	.footer__section-contact__details {
+		width: 50%;
+	}
+	.footer__section-contact {
+		width: 100%;
+		padding: 30px 0px;
+	}
+	.footer__section-contact__description {
+		text-align: left;
+	}
+}
