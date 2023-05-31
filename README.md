@@ -1,6 +1,6 @@
 ### Oasis is a website about articles. It is a project for my web-development portfolio.
 
-### Used tech:
+### Used technologies:
 
 - ReactJS
 - Vite
