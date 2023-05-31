@@ -14,7 +14,7 @@ const Carousel = ({
 }) => {
 	const screenWidth = window.innerWidth;
 	if (newSection == true) {
-		nrRowItems = screenWidth <= 900 ? 3 : 4;
+		nrRowItems = screenWidth <= 950 ? 3 : 4;
 	}
 
 	const [currentIndex, setCurrentIndex] = useState(0);

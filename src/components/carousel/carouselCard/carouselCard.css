@@ -4,7 +4,7 @@
 	justify-content: space-between;
 	padding: 1.5rem;
 	border-radius: var(--image__border-radius);
-	height: 400px;
+	height: 47vh;
 }
 
 .carousel-card__icon-button {
@@ -29,8 +29,8 @@
 }
 
 .active-card {
-	height: 500px;
-	width: 500px;
+	height: 65vh;
+	width: 30vw;
 	transition: linear 0.4s;
 }
 

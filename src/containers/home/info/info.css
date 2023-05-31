@@ -1,5 +1,6 @@
 .info__section {
 	background-color: white;
+	height: 1000px;
 }
 
 .section__padding .container {
@@ -11,7 +12,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 16rem;
 }
 
 .info__image img {
@@ -35,14 +35,11 @@
 }
 
 .info__cards {
-	position: absolute;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 0 5rem;
 	margin: auto;
-	top: 70%;
 }
 
 .info__button {
@@ -50,14 +47,13 @@
 }
 
 @media screen and (max-width: 900px) {
-	.info {
-		padding-bottom: 10rem;
+	.info__section {
+		height: 700px;
 	}
 	.info__content {
 		padding-left: 4rem;
 	}
 	.info__cards {
-		top: 17rem;
 		padding: 0;
 	}
 }
